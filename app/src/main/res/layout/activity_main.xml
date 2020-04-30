@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/MainBackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Title"
+        android:text="@string/liturgia_de_las_horas"/>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/MainScrollList">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <!-- Header #1-->
+        <TextView
+            android:id="@+id/header1_text_view"
+            android:text="@string/enero"
+            style="@style/Header1"
+
+            />
+
+        <!-- Block #1.1-->
+
+        <LinearLayout
+            android:id="@+id/block1_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block1_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/luis_variara"
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block1_txt_view_1"
+                    style="@style/TxtViewBlocks_1"
+                    android:text="@string/luis_variara" />
+
+                <TextView
+                    android:id="@+id/block1_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block1_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #1.2-->
+
+        <LinearLayout
+            android:id="@+id/block2_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block2_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/laura_vicuña"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block2_txt_view_1"
+                    android:text="@string/laura_vicuña"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block2_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/block2_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+        <!-- Block #1.3-->
+
+        <LinearLayout
+            android:id="@+id/block3_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block3_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/francisco_de_sales"
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block3_txt_view_1"
+                    android:text="@string/francisco_de_sales"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block3_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block3_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+        <!-- Block #1.4-->
+
+        <LinearLayout
+            android:id="@+id/block4_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block4_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/bronislao_markievicz"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block4_txt_view_1"
+                    android:text="@string/bronislao_markievicz"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block4_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/block4_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <!-- Block #1.5-->
+
+        <LinearLayout
+            android:id="@+id/block5_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block5_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/juan_bosco"
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block5_txt_view_1"
+                    android:text="@string/juan_bosco"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block5_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/block5_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <!-- Header #2-->
+        <TextView
+            android:id="@+id/header2_text_view"
+            android:text="@string/febrero"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #2.1-->
+
+        <LinearLayout
+            android:id="@+id/block6_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block6_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/salesianos_difuntos"
+                 />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block6_txt_view_1"
+                    android:text="@string/salesianos_difuntos"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block6_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block6_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #2.2-->
+
+        <LinearLayout
+            android:id="@+id/block7_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block7_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/pio_ix"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block7_txt_view_1"
+                    android:text="@string/pio_ix"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block7_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block7_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+        <!-- Block #2.3-->
+
+        <LinearLayout
+            android:id="@+id/block8_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block8_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/eusebia_palomino"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block8_txt_view_1"
+                    android:text="@string/eusebia_palomino"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block8_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block8_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+        <!-- Block #2.4-->
+
+        <LinearLayout
+            android:id="@+id/block9_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block9_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/versiglia_caravario"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block9_txt_view_1"
+                    android:text="@string/versiglia_caravario"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block9_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block9_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+
+        <!-- Header #3-->
+        <TextView
+            android:id="@+id/header3_text_view"
+            android:text="@string/mayo"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #3.1-->
+
+        <LinearLayout
+            android:id="@+id/block10_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block10_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/domingo_savio"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block10_txt_view_1"
+                    android:text="@string/domingo_savio"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block10_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block10_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #3.2-->
+
+        <LinearLayout
+            android:id="@+id/block11_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block11_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/maria_mazarello"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block11_txt_view_1"
+                    android:text="@string/maria_mazarello"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block11_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block11_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+        <!-- Block #3.3-->
+
+        <LinearLayout
+            android:id="@+id/block12_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block12_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/virgen_fatima"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block12_txt_view_1"
+                    android:text="@string/virgen_fatima"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block12_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block12_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+        <!-- Block #3.4-->
+
+        <LinearLayout
+            android:id="@+id/block13_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block13_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/luis_orione"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block13_txt_view_1"
+                    android:text="@string/luis_orione"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block13_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block13_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+        <!-- Block #3.5-->
+
+        <LinearLayout
+            android:id="@+id/block14_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block14_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/leonardo_murialdo"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block14_txt_view_1"
+                    android:text="@string/leonardo_murialdo"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block14_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block14_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+
+        <!-- Block #3.6-->
+
+        <LinearLayout
+            android:id="@+id/block15_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block15_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/maria_auxiliadora"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block15_txt_view_1"
+                    android:text="@string/maria_auxiliadora"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block15_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block15_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+        <!-- Block #3.7-->
+
+        <LinearLayout
+            android:id="@+id/block16_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block16_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/jose_kowalski"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block16_txt_view_1"
+                    android:text="@string/jose_kowalski"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block16_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block16_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+        </LinearLayout>
+
+
+        <!-- Header #4-->
+        <TextView
+            android:id="@+id/header4_text_view"
+            android:text="@string/junio"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #4.1-->
+
+        <LinearLayout
+            android:id="@+id/block17_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block17_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/francisco_kęsy"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block17_txt_view_1"
+                    android:text="@string/francisco_kęsy"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block17_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block17_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #4.2-->
+
+        <LinearLayout
+            android:id="@+id/block18_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block18_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/jose_cafasso"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block18_txt_view_1"
+                    android:text="@string/jose_cafasso"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block18_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block18_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <!-- Header #5-->
+        <TextView
+            android:id="@+id/header5_text_view"
+            android:text="@string/julio"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #5.1-->
+
+        <LinearLayout
+            android:id="@+id/block19_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block19_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/maria_romero"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block19_txt_view_1"
+                    android:text="@string/maria_romero"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block19_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block19_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Header #6-->
+        <TextView
+            android:id="@+id/header6_text_view"
+            android:text="@string/agosto"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #6.1-->
+
+        <LinearLayout
+            android:id="@+id/block20_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block20_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/augusto_czartorysky"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block20_txt_view_1"
+                    android:text="@string/augusto_czartorysky"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block20_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block20_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #6.2-->
+
+        <LinearLayout
+            android:id="@+id/block21_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block21_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/maria_troncatti"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block21_txt_view_1"
+                    android:text="@string/maria_troncatti"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block21_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block21_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+        <!-- Block #6.3-->
+
+        <LinearLayout
+            android:id="@+id/block22_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block22_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/ceferino_namuncura"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block22_txt_view_1"
+                    android:text="@string/ceferino_namuncura"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block22_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block22_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Header #7-->
+        <TextView
+            android:id="@+id/header7_text_view"
+            android:text="@string/septiembre"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #7.1-->
+
+        <LinearLayout
+            android:id="@+id/block23_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block23_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/calasanz_aparicio"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block23_txt_view_1"
+                    android:text="@string/calasanz_aparicio"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block23_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block23_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Header #8-->
+        <TextView
+            android:id="@+id/header8_text_view"
+            android:text="@string/octubre"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #8.1-->
+
+        <LinearLayout
+            android:id="@+id/block24_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block24_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/alberto_marvelli"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block24_txt_view_1"
+                    android:text="@string/alberto_marvelli"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block24_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block24_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #8.2-->
+
+        <LinearLayout
+            android:id="@+id/block25_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block25_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/alexandrina_da_costa"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block25_txt_view_1"
+                    android:text="@string/alexandrina_da_costa"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block25_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block25_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Block #8.3-->
+
+        <LinearLayout
+            android:id="@+id/block26_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block26_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/luis_guanella"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block26_txt_view_1"
+                    android:text="@string/luis_guanella"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block26_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block26_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Block #8.4-->
+
+        <LinearLayout
+            android:id="@+id/block27_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block27_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/aniversario_iglesia"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block27_txt_view_1"
+                    android:text="@string/aniversario_iglesia"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block27_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block27_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Block #8.5-->
+
+        <LinearLayout
+            android:id="@+id/block28_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block28_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/miguel_rua"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block28_txt_view_1"
+                    android:text="@string/miguel_rua"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block28_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block28_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Header #9-->
+        <TextView
+            android:id="@+id/header9_text_view"
+            android:text="@string/noviembre"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #9.1-->
+
+        <LinearLayout
+            android:id="@+id/block29_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block29_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/artemides_zatti"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block29_txt_view_1"
+                    android:text="@string/artemides_zatti"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block29_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block29_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <!-- Block #9.2-->
+
+        <LinearLayout
+            android:id="@+id/block30_linear_layout"
+            style="@style/Blocks2up"
+
+            >
+
+            <ImageView
+                android:id="@+id/block30_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/magdalena_morano"
+
+
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block30_txt_view_1"
+                    android:text="@string/magdalena_morano"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block30_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/block30_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Header #10-->
+        <TextView
+            android:id="@+id/header10_text_view"
+            android:text="@string/diciembre"
+            style="@style/Header2up"
+
+            />
+
+        <!-- Block #9.1-->
+
+        <LinearLayout
+            android:id="@+id/block31_linear_layout"
+            style="@style/AfterHeader_Blocks"
+
+            >
+
+            <ImageView
+                android:id="@+id/block31_img_view"
+                style="@style/ImgBlocks"
+                android:contentDescription="@string/felipe_rinaldi"
+                />
+
+            <LinearLayout
+                style="@style/Block_MidLinearLayout"
+                >
+
+                <TextView
+                    android:id="@+id/block31_txt_view_1"
+                    android:text="@string/felipe_rinaldi"
+                    style="@style/TxtViewBlocks_1"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/block31_txt_view_1_1"
+                    style="@style/TxtViewBlocks_1.1"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/block31_txt_view_2"
+                style="@style/TxtViewBlocks_2"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:weightSum="6"
+
+        >
+
+        <Button
+            android:id="@+id/pray_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/reza"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/support_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/colabora"
+            android:layout_weight="2"
+            />
+
+        <Button
+            android:id="@+id/troubleshoot_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/soporte"
+            android:layout_weight="2"
+            />
+
+        <Button
+            android:id="@+id/info_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/información"
+            android:layout_weight="1"
+            />
+
+</LinearLayout>
+
+</LinearLayout>

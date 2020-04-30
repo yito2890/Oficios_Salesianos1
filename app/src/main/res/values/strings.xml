@@ -1,0 +1,184 @@
+<resources>
+
+
+    <string name="app_name">Oficios Salesianos</string>
+    <string name="liturgia_de_las_horas">Liturgia de las Horas \nOficios Salesianos</string>
+
+
+    <!-- Meses del año-->
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="mayo">Mayo</string>
+    <string name="junio">Junio</string>
+    <string name="julio">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="septiembre">Septiembre</string>
+    <string name="octubre">Octubre</string>
+    <string name="noviembre">Noviembre</string>
+    <string name="diciembre">Diciembre</string>
+
+
+    <!-- Nombres de santos / fiestas [CHAR LIMIT=50] -->
+    <string name="luis_variara">Beato Luis Variara</string>
+    <string name="laura_vicuña">Beata Laura Vicuña</string>
+    <string name="francisco_de_sales">San Francisco de Sales</string>
+    <string name="bronislao_markievicz">Beato Bronislao Markievicz</string>
+    <string name="juan_bosco">San Juan Bosco</string>
+    <string name="salesianos_difuntos">Conmemoración de todos los \nSalesianos Difuntos</string>
+    <string name="pio_ix">Beato Pío IX</string>
+    <string name="eusebia_palomino">Beata Eusebia Palomino</string>
+    <string name="versiglia_caravario">Santos Luis Versiglia \ny Calixto Caravario</string>
+    <string name="domingo_savio">Santo Domingo Savio</string>
+    <string name="maria_mazarello">Santa María Dominica Mazzarello</string>
+    <string name="virgen_fatima">Bienaventurada María \nVirgen de Fátima</string>
+    <string name="luis_orione">San Luis Orione</string>
+    <string name="leonardo_murialdo">San Leonardo Murialdo</string>
+    <string name="maria_auxiliadora">Bienaventurada Virgen María \nAuxiliadora de los Cristianos</string>
+    <string name="jose_kowalski">Beato José Kowalski</string>
+    <string name="francisco_kęsy">Beato Francisco Kęsy \ny Compañeros</string>
+    <string name="jose_cafasso">San José Cafasso</string>
+    <string name="maria_romero">Beata María Romero Meneses</string>
+    <string name="augusto_czartorysky">Beato Augusto Czartorysky</string>
+    <string name="maria_troncatti">Beata María Troncatti</string>
+    <string name="ceferino_namuncura">Beato Ceferino Namuncurá</string>
+    <string name="calasanz_aparicio">Beatos José Calasanz Marqués \ny Enrique Saíz Aparicio</string>
+    <string name="alberto_marvelli">Beato Alberto Marvelli</string>
+    <string name="alexandrina_da_costa">Beata Alexandrina María \nDa Costa</string>
+    <string name="luis_guanella">San Luis Guanella</string>
+    <string name="aniversario_iglesia">Aniversario de la Dedicación \nde la Propia Iglesia</string>
+    <string name="miguel_rua">Beato Miguel Rúa</string>
+    <string name="artemides_zatti">Beato Artémides Zatti</string>
+    <string name="magdalena_morano">Beata Magdalena Morano</string>
+    <string name="felipe_rinaldi">Beato Felipe Rinaldi</string>
+
+
+    <!-- Tipo de celebración [CHAR LIMIT=NONE] -->
+    <string name="memoria">Memoria</string>
+    <string name="memoria_libre">Memoria Libre</string>
+    <string name="solemnidad">Solemnidad</string>
+    <string name="fiesta">Fiesta</string>
+
+
+    <!-- Númbers 1 to 31-->
+    <string name="one">01</string>
+    <string name="two">02</string>
+    <string name="three">03</string>
+    <string name="four">04</string>
+    <string name="five">05</string>
+    <string name="six">06</string>
+    <string name="seven">07</string>
+    <string name="eight">08</string>
+    <string name="nine">09</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twelve">12</string>
+    <string name="thirteen">13</string>
+    <string name="fourteen">14</string>
+    <string name="fifteen">15</string>
+    <string name="sixteen">16</string>
+    <string name="seventeen">17</string>
+    <string name="eighteen">18</string>
+    <string name="nineteen">19</string>
+    <string name="twenty">20</string>
+    <string name="twenty_one">21</string>
+    <string name="twenty_two">22</string>
+    <string name="twenty_three">23</string>
+    <string name="twenty_four">24</string>
+    <string name="twenty_five">25</string>
+    <string name="twenty_six">26</string>
+    <string name="twenty_seven">27</string>
+    <string name="twenty_eight">28</string>
+    <string name="twenty_nine">29</string>
+    <string name="thirty">30</string>
+    <string name="thirty_one">31</string>
+
+    <!-- Fechas [CHAR LIMIT=NONE] -->
+
+    <string name="enero_15">15 de enero</string>
+    <string name="enero_22">22 de enero</string>
+    <string name="enero_24">24 de enero</string>
+    <string name="enero_30">30 de enero</string>
+    <string name="enero_31">31 de enero</string>
+    <string name="febrero_1">1 de febrero</string>
+    <string name="febrero_7">7 de febrero</string>
+    <string name="febrero_9">9 de febrero</string>
+    <string name="febrero_25">25 de febrero</string>
+    <string name="mayo_6">6 de mayo</string>
+    <string name="mayo_13">13 de mayo</string>
+    <string name="mayo_15">15 de mayo</string>
+    <string name="mayo_16">16 de mayo</string>
+    <string name="mayo_18">18 de mayo</string>
+    <string name="mayo_24">24 de mayo</string>
+    <string name="mayo_29">29 de mayo</string>
+    <string name="junio_12">12 de junio</string>
+    <string name="junio_23">23 de junio</string>
+    <string name="julio_7">7 de julio</string>
+    <string name="agosto_2">2 de agosto</string>
+    <string name="agosto_25">25 de agosto</string>
+    <string name="agosto_26">26 de agosto</string>
+    <string name="septiembre_22">22 de septiembre</string>
+    <string name="octubre_5">5 de octubre</string>
+    <string name="octubre_13">13 de octubre</string>
+    <string name="octubre_24">24 de octubre</string>
+    <string name="octubre_25">25 de octubre</string>
+    <string name="octubre_29">29 de octubre</string>
+    <string name="noviembre_13">13 de noviembre</string>
+    <string name="noviembre_15">15 de noviembre</string>
+    <string name="diciembre_5">5 de diciembre</string>
+
+    <!-- Menú oraciones [CHAR LIMIT=NONE] -->
+    <string name="oraciones">ORACIONES \npara el rezo diario</string>
+    <string name="oficios_salesianos">Oficios Salesianos</string>
+    <!-- Dichos sobre la oración [CHAR LIMIT=NONE] -->
+    <string name="oracion_fuller">"La oración debería ser la llave del día y el cerrojo de la noche. Thomas Fuller"</string>
+    <string name="oracion_agustin">"''La oración es el encuentro de la sed de Dios y de la sed del hombre.'' Agustín de Hipona</string>
+    <string name="oracion_manzoni">"''El hombre crece cuando se arrodilla.''\n A. Manzoni</string>
+
+
+    <!-- Botones Inferiores [CHAR LIMIT=NONE] -->
+
+    <string name="reza">Reza</string>
+    <string name="colabora">Colabora</string>
+    <string name="soporte">Soporte</string>
+    <string name="información">Info</string>
+
+
+    <!-- Opciones rezo [CHAR LIMIT=NONE] -->
+
+    <string name="biografia">BIOGRAFÍA</string>
+    <string name="reseña">RESEÑA</string>
+    <string name="primeras_visperas">I VÍSPERAS</string>
+    <string name="oficio_de_lectura">OFICIO DE LECTURA</string>
+    <string name="laudes">LAUDES</string>
+    <string name="tercia">TERCIA</string>
+    <string name="sexta">SEXTA</string>
+    <string name="nona">NONA</string>
+    <string name="visperas">VÍSPERAS</string>
+    <string name="segundas_visperas">II VÍSPERAS</string>
+    <string name="completas">COMPLETAS</string>
+
+
+    <!-- Opciones oraciones [CHAR LIMIT=NONE] -->
+
+    <string name="rezo_Espiritu_Santo">Invocación al Espíritu Santo</string>
+    <string name="rezo_consagrar_dia">Oraciones para consagrar el día</string>
+    <string name="rezo_diario">Angelus y Regina Coeli</string>
+    <string name="rezo_mañana">Oraciones por la mañana</string>
+    <string name="rezo_don_bosco">Oraciones a Don Bosco</string>
+    <string name="rezo_jovenes">Oraciones por los jóvenes</string>
+    <string name="rezo_virgen">Rezos a la Virgen</string>
+    <string name="rezo_sosiego">Oraciones para pedir sosiego</string>
+    <string name="rezo_familia">Oraciones por la familia</string>
+    <string name="rezo_alimentos">Oraciones por los alimentos</string>
+
+
+
+    <!-- SUPPORT ACTIVITY [CHAR LIMIT=NONE] -->
+
+    <string name="soporte_tecnico">Soporte Técnico</string>
+
+
+
+</resources>
